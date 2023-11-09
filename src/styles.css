@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  background-color: #333232;
+}
+
+.code {
+  color: #fff4ec;
+  position: relative;
+  top: -5px;
+}
+
+#app {
+  padding-left: 200px;
+}
+
+#presentation {
+  font-size: 50px;
+  position: relative;
+  padding-top: 50px;
+  line-height: 30px;
+  color: #f7b2ad;
+}
+
+@media only screen and (max-width: 500px) {
+  #presentation {
+    font-size: 30px;
+    line-height: 17.5px;
+  }
+
+  #app {
+    padding-left: 30px;
+  }
+
+  .code {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #presentation {
+    font-size: 25px;
+    line-height: 15px;
+  }
+
+  #app {
+    padding-left: 25px;
+  }
+
+  .code {
+    font-size: 15px;
+  }
+}
